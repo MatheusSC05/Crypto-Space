@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;  
+}   
+body{
+    background-image:url(/imgs/background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    background-size: 100%;
+}
+.header-menu a,
+.col button,
+.container-fluid h1,
+.container-btn h4,p,button {
+    color:#ffffff !important;
+  
+}
+.col button{
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #ffffff;
+}
+.col button:hover{
+    background-color: #ffffff;
+    color: #000103 !important;
+    border-color: #000103;
+}
+.col button:focus{
+    background-color: #ffffff;
+    color: #000103 !important;
+    border-color: #000103;
+}
+.header-menu a{
+    text-decoration: none;
+    font-size: 1vw;
+}
+.header-menu a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+.container-fluid h1{
+    font-size: 10vw;
+}
+.container-btn h4{
+    font-size: 3vw;
+}
+.container-btn p{
+    font-size: 1.5vw;
+    
+}
+.container-btn button{
+    background-color: #ffffff;
+    color: #000103 !important;
+    border-radius: 0;
+    border-color: #ffffff;
+    width: 350px;
+    font-weight: bold;
+}
+.container-btn button:hover{
+    background-color: transparent;
+    color:#ffffff !important;
+}
+.container-btn button:focus{
+    background-color: transparent;
+    color:#ffffff !important;
+    border-color: #ffffff;
+}
