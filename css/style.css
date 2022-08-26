@@ -6,30 +6,30 @@
     font-family: 'Rajdhani', sans-serif;  
 }   
 body{
-    background-image:url(/imgs/background.jpg);
+    background-image: url("../imgs/background.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     overflow-x: hidden;
     background-size: 100%;
 }
 .header-menu a,
-.col button,
-.container-fluid h1,
-.container-btn h4,p,button {
+.header-content button,
+.div-content h1,
+.div-btn h4,p,button {
     color:#ffffff !important;
   
 }
-.col button{
+.header-btn button{
     background-color: transparent;
     border-radius: 0;
     border-color: #ffffff;
 }
-.col button:hover{
+.header-btn button:hover{
     background-color: #ffffff;
     color: #000103 !important;
     border-color: #000103;
 }
-.col button:focus{
+.header-btn button:focus{
     background-color: #ffffff;
     color: #000103 !important;
     border-color: #000103;
@@ -42,17 +42,17 @@ body{
     border-bottom: 1px solid #ffffff;
 }
 
-.container-fluid h1{
+.div-content h1{
     font-size: 10vw;
 }
-.container-btn h4{
+.div-btn h4{
     font-size: 3vw;
 }
-.container-btn p{
+.div-btn p{
     font-size: 1.5vw;
     
 }
-.container-btn button{
+.div-btn button{
     background-color: #ffffff;
     color: #000103 !important;
     border-radius: 0;
@@ -60,11 +60,11 @@ body{
     width: 350px;
     font-weight: bold;
 }
-.container-btn button:hover{
+.div-btn button:hover{
     background-color: transparent;
     color:#ffffff !important;
 }
-.container-btn button:focus{
+.div-btn button:focus{
     background-color: transparent;
     color:#ffffff !important;
     border-color: #ffffff;
