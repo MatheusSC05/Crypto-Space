@@ -8,9 +8,8 @@
 body{
     background-image: url("../imgs/background.jpg");
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: auto;
     overflow-x: hidden;
-    background-size: 100%;
 }
 .header-menu a,
 .header-content button,
